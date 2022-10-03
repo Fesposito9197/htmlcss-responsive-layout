@@ -10,7 +10,7 @@ SECTION HIGHLIGHTS
     margin: .625rem 0;
 }
 /* --------------------------------
-RESPONSIVE
+RESPONSIVE HIGHLIGHTS 
 ------------------------------------ */
 /* tablet */
 @media screen and (min-width: 768px) {
@@ -33,7 +33,7 @@ SECTION STRATEGIC
     margin: .625rem 0;
 }
 /* --------------------------------
-RESPONSIVE
+RESPONSIVE STRATEGIC
 ------------------------------------ */
 /* tablet */
 @media screen and (min-width: 768px) {
@@ -68,7 +68,7 @@ SECTION BENEFITS
     margin: .625rem 0;
 }
 /* --------------------------------
-RESPONSIVE
+RESPONSIVE BENEFITS
 ------------------------------------ */
 /* tablet */
 @media screen and (min-width: 768px) {
@@ -82,5 +82,21 @@ RESPONSIVE
     .benefits .col{
         width: calc((100% / 3) - .625rem);
         margin: .625rem .625rem .625rem 0;
+    }
+}
+/* --------------------------------
+SECTION ABOUT US
+------------------------------------ */
+.about-us .col{
+    width: 100%;
+    margin: .625rem 0;
+}
+/* --------------------------------
+RESPONSIVE ABOUT US
+------------------------------------ */
+/* tablet */
+@media screen and (min-width: 768px) {
+    .about-us .col{
+        width: 50%;
     }
 }
