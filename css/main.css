@@ -12,11 +12,29 @@
 /* --------------------------------
         RESPONSIVE
 ------------------------------------ */
+/* tablet */
 @media screen and (min-width: 768px) {
     .highlights .col{
         width:calc(100% / 3) ;
     }
     .highlights .col:first-child{
         width: calc((100% / 3 ) * 2);
+    }
+}
+/* --------------------------------
+        SECTION STRATEGIC
+------------------------------------ */
+.strategic{
+    background-color: var( --secondary-color);
+    color: var(--white-text);
+}
+.strategic .col{
+    width: 100%;
+    margin: .625rem 0;
+}
+/* tablet */
+@media screen and (min-width: 768px) {
+    .strategic .col{
+        width: 50%;
     }
 }

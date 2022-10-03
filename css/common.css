@@ -16,13 +16,16 @@ section{
 /* --------------------------------
         FLEX
 ------------------------------------ */
-.flex{
-    display: flex;
+
+.margin-neg{
+    margin: 0 -0.625rem;
 }
 .row{
     display: flex;
-    margin: 0 -0.625rem;
 }
+.align-end{
+    align-items: flex-end;
+} 
 
 .justify-space-between{
     justify-content: space-between;
