@@ -100,3 +100,10 @@ RESPONSIVE ABOUT US
         width: 50%;
     }
 }
+/* --------------------------------
+SECTION GET STARTED
+------------------------------------ */
+.get-started{
+    background-color: var(--secondary-color);
+    text-align: center;
+}
