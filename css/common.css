@@ -7,6 +7,16 @@
     padding-right: 1.25rem ;
     margin: auto;
 }
+.list-inline{
+    list-style: none;
+}
+/* --------------------------------
+        FLEX
+------------------------------------ */
 .flex{
     display: flex;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
 }

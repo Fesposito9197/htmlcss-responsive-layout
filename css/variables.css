@@ -2,5 +2,9 @@
     VARIABLES
 ----------------------------- */    
 :root{
-    --primary-color:#0084fd;
+    --primary-color:#0084ff;
+    --primary-color-light:#b5ddff;
+    --secondary-color:#9792e4;
+    --white-text:#fff;
 }
+
