@@ -1,5 +1,5 @@
 /* --------------------------------
-        COMMON
+COMMON
 ------------------------------------ */
 section{
     padding: 1.875rem 0;
@@ -14,14 +14,14 @@ section{
     list-style: none;
 }
 /* --------------------------------
-        FLEX
+FLEX
 ------------------------------------ */
 
-.margin-neg{
-    margin: 0 -0.625rem;
-}
 .row{
     display: flex;
+}
+.margin-neg{
+    margin: 0 -0.625rem;
 }
 .align-end{
     align-items: flex-end;

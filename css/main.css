@@ -1,5 +1,5 @@
 /* --------------------------------
-        SECTION HIGHLIGHTS 
+SECTION HIGHLIGHTS 
 ------------------------------------ */
 .card-debug{
     background-color: var(--primary-color-light);
@@ -10,7 +10,7 @@
     margin: .625rem 0;
 }
 /* --------------------------------
-        RESPONSIVE
+RESPONSIVE
 ------------------------------------ */
 /* tablet */
 @media screen and (min-width: 768px) {
@@ -22,16 +22,19 @@
     }
 }
 /* --------------------------------
-        SECTION STRATEGIC
+SECTION STRATEGIC
 ------------------------------------ */
 .strategic{
     background-color: var( --secondary-color);
-    color: var(--white-text);
+    
 }
 .strategic .col{
     width: 100%;
     margin: .625rem 0;
 }
+/* --------------------------------
+RESPONSIVE
+------------------------------------ */
 /* tablet */
 @media screen and (min-width: 768px) {
     .strategic .col{
@@ -39,7 +42,7 @@
     }
 }
 /* --------------------------------
-        SECTION TESTIMONIAL
+SECTION TESTIMONIAL
 ------------------------------------ */
 .card-debug-2{
     background-color: var(--secondary-color);
@@ -49,7 +52,35 @@
     width: 100%;
     margin: .625rem 0;
 }
+
+/* --------------------------------
+SECTION BENEFITS
+------------------------------------ */
+.benefits{
+    background-color: var(--secondary-color);
+}
+.card-debug-3{
+    background-color: var(--white-text);
+    height: 100px;
+}
+.benefits .col{
+    width: 100%;
+    margin: .625rem 0;
+}
+/* --------------------------------
+RESPONSIVE
+------------------------------------ */
 /* tablet */
 @media screen and (min-width: 768px) {
-   
+    .benefits .col{
+        width: calc((100% / 2) - .625rem);
+        margin: .625rem .625rem .625rem 0;
+    }
+}
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .benefits .col{
+        width: calc((100% / 3) - .625rem);
+        margin: .625rem .625rem .625rem 0;
+    }
 }
