@@ -1,0 +1,22 @@
+/* --------------------------------
+        SECTION HIGHLIGHTS 
+------------------------------------ */
+.card-debug{
+    background-color: var(--primary-color-light);
+    height: 100px;
+}
+.highlights .col{
+    width: 100%;
+    margin: .625rem 0;
+}
+/* --------------------------------
+        RESPONSIVE
+------------------------------------ */
+@media screen and (min-width: 768px) {
+    .highlights .col{
+        width:calc(100% / 3) ;
+    }
+    .highlights .col:first-child{
+        width: calc((100% / 3 ) * 2);
+    }
+}
