@@ -13,6 +13,25 @@ section{
 .list-inline{
     list-style: none;
 }
+.btn{
+    text-decoration: none;
+}
+    
+.btn-white{
+    background-color: var(--white-text);
+}
+.btn-blue{
+    background-color: var(--primary-color);
+}
+.btn-purple{
+    background-color: var(--secondary-color);
+}
+.btn-big{
+    padding: .625rem;
+    border-radius: 1.25rem;
+}
+    
+
 /* --------------------------------
 FLEX
 ------------------------------------ */
@@ -35,4 +54,7 @@ FLEX
 }
 .col{
     padding:0 .625rem;
+}
+.align-center{
+    align-items: center;
 }

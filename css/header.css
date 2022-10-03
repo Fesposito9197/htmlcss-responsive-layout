@@ -13,7 +13,18 @@ header{
 .main-nav{
     display: none;
 }
-
+.container .logo{
+    padding-top: .625rem;
+    padding-left: .625rem;
+}
+.container i{
+    font-size: 1.875rem;
+}
+.list-inline li .link{
+    text-decoration: none;
+    margin-right: 1.875rem ;
+    color: var(--white-text);
+}
 /* --------------------------------
 RESPONSIVE HEADER
 ------------------------------------ */
