@@ -84,6 +84,9 @@ TYPO
 .text-light-purple{
     color:var(--secondaty-color-light) ;
 }
+.text-light-footer{
+    color: var(--light-footer);
+}
 .text-yellow{
     color: var(--yellow-text);
 }
