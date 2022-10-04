@@ -32,6 +32,9 @@ section{
 .margin-right-10{
     margin-right: .625rem;
 }
+.margin-top-30{
+    margin-top: 1.875rem;
+}
 .padding-top-10{
     padding-top: .625rem;
 }
@@ -75,6 +78,7 @@ TYPO
 .text-purple{
     color: var(--secondary-color);
 }
+
 .font-size{
     font-size: 1.875rem;
 }
@@ -123,7 +127,7 @@ BUTTONS
 }
 .btn-purple{
     background-color: var(--secondary-color);
-    color: var(--white-text);
+    
 }
 .btn{
     text-decoration: none;
