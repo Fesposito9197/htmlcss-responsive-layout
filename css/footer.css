@@ -2,6 +2,6 @@
 FOOTER 
 ------------------------------------ */
 footer{
-    background-color: black;
+    background-color: #333333;
     color: var(--white-text);
 }

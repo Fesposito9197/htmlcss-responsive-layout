@@ -1,6 +1,9 @@
 /* --------------------------------
 COMMON
 ------------------------------------ */
+body{
+    font-family: 'PT Sans', sans-serif;
+}
 section{
     padding: 1.875rem 0;
 }
@@ -13,25 +16,52 @@ section{
 .list-inline{
     list-style: none;
 }
-.btn{
-    text-decoration: none;
-}
-    
-.btn-white{
-    background-color: var(--white-text);
-}
-.btn-blue{
-    background-color: var(--primary-color);
-}
-.btn-purple{
-    background-color: var(--secondary-color);
-}
-.btn-big{
-    padding: .625rem;
-    border-radius: 1.25rem;
-}
-    
 
+.margin-40{
+    margin: 1.25rem 0;
+}
+.padding-10{
+    padding: .625rem;
+}
+.padding-left{
+    padding-left: .625rem;
+}
+
+.margin-right-10{
+    margin-right: .625rem;
+}
+.margin-top-10{
+    padding-top: .625rem;
+}
+.block-inline{
+    display: inline-block;
+}
+.width{
+    width: 100%;
+}
+.img-position{
+    height: 245px;
+    width: 200px;
+    position:relative ;
+    top: 24px;
+    
+}
+
+/* --------------------------------
+TYPO
+------------------------------------ */    
+.text-center{
+    text-align: center;
+}
+.text-blue{
+    color: var(--primary-color);
+}
+.text-gray{
+    color: var(--gray-text);
+}
+.font-size{
+    font-size: 1.875rem;
+}
 /* --------------------------------
 FLEX
 ------------------------------------ */
@@ -57,4 +87,51 @@ FLEX
 }
 .align-center{
     align-items: center;
+}
+/* --------------------------------
+BUTTONS
+------------------------------------ */    
+.btn-white{
+    background-color: var(--white-text);
+    color: var(--black-text);
+}
+.btn-blue{
+    background-color: var(--primary-color);
+    color: var(--white-text);
+}
+.btn-purple{
+    background-color: var(--secondary-color);
+}
+.btn{
+    text-decoration: none;
+    
+    border-radius: 1.25rem;
+}
+.btn-small{
+    padding: .625rem;
+}
+.btn-large{
+    
+    padding: .625rem 3.125rem .625rem 3.125rem ;
+
+}
+/* --------------------------------
+ICONS
+------------------------------------ */
+.icon-md{
+    font-size: 1.875rem;
+}
+.icon-big{
+    font-size: 5rem;
+}
+
+/* --------------------------------
+CARDS
+------------------------------------ */
+.card{
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+}
+.card-light{
+    background-color: var(--primary-color-light);
 }

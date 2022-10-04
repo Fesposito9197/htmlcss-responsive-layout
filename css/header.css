@@ -6,6 +6,9 @@ header{
     background-color: var(--primary-color);
     padding: 1.25rem 0;
     color: var(--white-text);
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
 .hamburg{
     color:  var(--white-text);
@@ -15,11 +18,9 @@ header{
 }
 .container .logo{
     padding-top: .625rem;
-    padding-left: .625rem;
+    
 }
-.container i{
-    font-size: 1.875rem;
-}
+
 .list-inline li .link{
     text-decoration: none;
     margin-right: 1.875rem ;

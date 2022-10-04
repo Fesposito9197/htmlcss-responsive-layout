@@ -20,6 +20,30 @@ RESPONSIVE HIGHLIGHTS
     .highlights .col:first-child{
         width: calc((100% / 3 ) * 2);
     }
+   .col-right{
+    width: 50%;
+   }
+   .img-position{
+    
+    top: 24px;
+   }
+    .padding-tablet{
+        padding: 1.25rem 1.25rem 7rem 1.25rem;
+    }
+}
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+   .highlights .col-left ,.highlights .col-right {
+    width: calc(100% / 2 );
+   }
+   .img-position{
+    
+    top: 181px;
+    left: 30px;
+   }
+   .padding-desktop{
+    padding:1.25rem 1.25rem 8rem 1.25rem ;
+   }
 }
 /* --------------------------------
 SECTION STRATEGIC
@@ -105,5 +129,5 @@ SECTION GET STARTED
 ------------------------------------ */
 .get-started{
     background-color: var(--secondary-color);
-    text-align: center;
+    
 }
