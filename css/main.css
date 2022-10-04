@@ -20,7 +20,7 @@ RESPONSIVE HIGHLIGHTS
     .highlights .col:first-child{
         width: calc((100% / 3 ) * 2);
     }
-   .col-right{
+   .highlights .col-right{
     width: 50%;
    }
    .img-position{
@@ -91,6 +91,13 @@ SECTION TESTIMONIAL
 .testimonial .col{
     width: 100%;
     margin: .625rem 0;
+}
+/* tablet */
+@media screen and (min-width: 768px) {
+    .testimonial .col{
+        display: flex;
+        align-items: center;
+    }
 }
 
 /* --------------------------------

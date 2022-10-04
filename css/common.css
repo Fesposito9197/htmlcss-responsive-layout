@@ -48,6 +48,14 @@ section{
     top: 24px;
     
 }
+.img-size{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.img-radius{
+    border-radius: 50%;
+}
 
 /* --------------------------------
 TYPO
@@ -63,6 +71,9 @@ TYPO
 }
 .text-gray{
     color: var(--gray-text);
+}
+.text-purple{
+    color: var(--secondary-color);
 }
 .font-size{
     font-size: 1.875rem;
@@ -148,4 +159,7 @@ CARDS
 }
 .card-white{
     background-color: var(--white-text);
+}
+.card-purple{
+    background-color: var(--secondary-color);
 }
