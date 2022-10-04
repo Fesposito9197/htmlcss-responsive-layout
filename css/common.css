@@ -18,7 +18,7 @@ section{
 }
 
 .margin-40{
-    margin: 1.25rem 0;
+    margin: 2.5rem 0;
 }
 .padding-10{
     padding: .625rem;
@@ -26,11 +26,13 @@ section{
 .padding-left{
     padding-left: .625rem;
 }
-
+.padding-bottom-30{
+    padding-bottom: 1.875rem;
+}
 .margin-right-10{
     margin-right: .625rem;
 }
-.margin-top-10{
+.padding-top-10{
     padding-top: .625rem;
 }
 .block-inline{
@@ -56,11 +58,17 @@ TYPO
 .text-blue{
     color: var(--primary-color);
 }
+.text-white{
+    color: var(--white-text);
+}
 .text-gray{
     color: var(--gray-text);
 }
 .font-size{
     font-size: 1.875rem;
+}
+.font-style{
+    font-style: italic;
 }
 /* --------------------------------
 FLEX
@@ -107,6 +115,9 @@ BUTTONS
     
     border-radius: 1.25rem;
 }
+.btn-circle{
+    padding: .625rem .9375rem .625rem .9375rem;
+}
 .btn-small{
     padding: .625rem;
 }
@@ -134,4 +145,7 @@ CARDS
 }
 .card-light{
     background-color: var(--primary-color-light);
+}
+.card-white{
+    background-color: var(--white-text);
 }
