@@ -78,6 +78,9 @@ TYPO
 .font-size{
     font-size: 1.875rem;
 }
+.font-size-65{
+    font-size: 4.0625rem;
+}
 .font-style{
     font-style: italic;
 }
@@ -120,6 +123,7 @@ BUTTONS
 }
 .btn-purple{
     background-color: var(--secondary-color);
+    color: var(--white-text);
 }
 .btn{
     text-decoration: none;
